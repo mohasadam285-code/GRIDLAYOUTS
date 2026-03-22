@@ -19,8 +19,8 @@ public class Gridlayout {
         frame.add(this.createJPanelOne());
         frame.add(this.createJPanelTwo());
         frame.add(this.createJPanelTree());
-        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setExtendedState(Frame.MAXIMIZED_BOTH);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
         return frame;
     }
